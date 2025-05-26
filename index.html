@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>铭记五卅运动 - 中国工人运动的伟大篇章</title>
+    <style>
+        body {
+            font-family: "Microsoft YaHei", sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f2e7;
+            color: #333;
+        }
+        
+        .header {
+            background-color: #c12c2c;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+        }
+        
+        .nav {
+            background-color: #8a1f1f;
+            padding: 10px 0;
+        }
+        
+        .nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        
+        .nav li {
+            margin: 0 15px;
+        }
+        
+        .nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 5px 10px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        
+        .nav a:hover {
+            background-color: #c12c2c;
+        }
+        
+        .content {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        
+        .banner {
+            width: 100%;
+            height: 400px;
+            background-image: url('https://example.com/wusa-banner.jpg');
+            background-size: cover;
+            background-position: center;
+            margin-bottom: 30px;
+            border-radius: 5px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+            position: relative;
+        }
+        
+        .banner-text {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: rgba(193, 44, 44, 0.8);
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        .section {
+            background-color: white;
+            padding: 20px;
+            margin-bottom: 30px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            border-left: 5px solid #c12c2c;
+        }
+        
+        .section h2 {
+            color: #c12c2c;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 10px;
+        }
+        
+        .timeline {
+            position: relative;
+            padding-left: 50px;
+        }
+        
+        .timeline-item {
+            position: relative;
+            margin-bottom: 30px;
+        }
+        
+        .timeline-item:before {
+            content: "";
+            position: absolute;
+            left: -30px;
+            top: 5px;
+            width: 20px;
+            height: 20px;
+            background-color: #c12c2c;
+            border-radius: 50%;
+        }
+        
+        .timeline-item:after {
+            content: "";
+            position: absolute;
+            left: -21px;
+            top: 25px;
+            bottom: -35px;
+            width: 2px;
+            background-color: #c12c2c;
+        }
+        
+        .timeline-item:last-child:after {
+            display: none;
+        }
+        
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+        }
+        
+        .gallery-item {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            overflow: hidden;
+            transition: transform 0.3s;
+        }
+        
+        .gallery-item:hover {
+            transform: scale(1.03);
+        }
+        
+        .gallery-item img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+        }
+        
+        .gallery-item p {
+            padding: 10px;
+            margin: 0;
+            background-color: #f5f5f5;
+            text-align: center;
+        }
+        
+        .footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 30px;
+        }
+        
+        .quote {
+            font-style: italic;
+            color: #666;
+            border-left: 3px solid #c12c2c;
+            padding-left: 15px;
+            margin: 20px 0;
+        }
+        
+        @media (max-width: 768px) {
+            .nav ul {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .nav li {
+                margin: 5px 0;
+            }
+            
+            .banner {
+                height: 250px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>五卅运动 - 中国工人运动的伟大篇章</h1>
+        <p>1925年5月30日，中国人民反帝爱国斗争的重要里程碑</p>
+    </div>
+    
+    <div class="nav">
+        <ul>
+            <li><a href="#overview">运动概述</a></li>
+            <li><a href="#history">历史背景</a></li>
+            <li><a href="#timeline">事件时间线</a></li>
+            <li><a href="#impact">历史影响</a></li>
+            <li><a href="#gallery">历史图片</a></li>
+        </ul>
+    </div>
+    
+    <div class="content">
+      <div class="banner">
+            <div class="banner-text">
+                <h2>纪念五卅运动95周年</h2>
+                <p>缅怀先烈，铭记历史，传承红色基因</p>
+          </div>
+      <img src="wusa4.jpg" width="1189" height="429" alt=""/>      </div>
+        
+        <div id="overview" class="section">
+            <h2>五卅运动概述</h2>
+            <p>五卅运动是1925年5月30日爆发的中国人民反对帝国主义的爱国运动。运动起因是上海日商纱厂工人顾正红被枪杀和随后学生示威游行遭租界巡捕开枪镇压，酿成"五卅惨案"。这一事件激起了全国人民的愤怒，在中国共产党的领导下，掀起了全国范围的反帝爱国高潮。</p>
+            
+            <div class="quote">
+                "五卅运动标志着中国工人阶级作为独立的政治力量登上历史舞台，是中国大革命高潮的起点。"
+            </div>
+        </div>
+        
+        <div id="history" class="section">
+            <h2>历史背景</h2>
+            <p>1920年代初期，中国处于军阀混战、列强侵略的黑暗时期。帝国主义在华享有特权，外国资本家残酷剥削中国工人。1925年2月，上海日商内外棉纱厂工人因抗议厂方虐待举行罢工。5月15日，日本资本家枪杀工人代表顾正红，打伤十余人，成为五卅运动的导火索。</p>
+            <p>5月30日，上海学生2000余人在租界内宣传声援工人，被英国巡捕逮捕100多人。随后万余群众聚集在南京路老闸捕房前要求释放被捕学生，英国巡捕向手无寸铁的群众开枪射击，打死13人，重伤数十人，逮捕150余人，制造了震惊中外的"五卅惨案"。</p>
+        </div>
+        
+        <div id="timeline" class="section">
+            <h2>五卅运动时间线</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <h3>1925年2月</h3>
+                    <p>上海日商内外棉纱厂工人罢工，抗议厂方虐待工人</p>
+                </div>
+                
+                <div class="timeline-item">
+                    <h3>5月15日</h3>
+                    <p>日本资本家枪杀工人代表顾正红，打伤十余人</p>
+                </div>
+                
+                <div class="timeline-item">
+                    <h3>5月30日</h3>
+                    <p>英国巡捕在南京路开枪镇压示威群众，制造"五卅惨案"</p>
+                </div>
+                
+                <div class="timeline-item">
+                    <h3>6月1日</h3>
+                    <p>上海总工会成立，宣布总罢工，20余万工人响应</p>
+                </div>
+                
+                <div class="timeline-item">
+                    <h3>6月上旬</h3>
+                    <p>运动迅速扩展到全国，北京、广州、武汉等500多个城镇响应</p>
+                </div>
+            </div>
+        </div>
+        
+        <div id="impact" class="section">
+            <h2>历史影响</h2>
+            <p>五卅运动是五四运动后又一次全国规模的革命高潮，它沉重打击了帝国主义，大大提高了中国人民的觉悟，标志着中国大革命高潮的到来。运动中，中国工人阶级显示了强大的力量，中国共产党得到了锻炼和发展，为北伐战争和后来的革命斗争奠定了基础。</p>
+            <p>五卅运动也促进了马克思主义在中国的传播，推动了工人运动、学生运动和农民运动的发展，使中国革命的面貌为之一新。这场运动培养和锻炼了一大批革命骨干，为中国革命积累了宝贵的经验。</p>
+        </div>
+        
+        <div id="gallery" class="section">
+            <h2>历史图片</h2>
+            <div class="gallery">
+                <div class="gallery-item"><img src="wusa1.jpg" width="400" height="292" alt=""/>
+                    <p>五卅运动示威游行</p>
+              </div>
+                <div class="gallery-item"><img src="wusa2.jpg" width="400" height="316" alt=""/>
+                    <p>五卅惨案现场</p>
+              </div>
+                <div class="gallery-item"><img src="wusa3.png" width="400" height="362" alt=""/>
+                    <p>上海工人罢工</p>
+              </div>
+                <div class="gallery-item"><img src="wusa4.jpg" width="400" height="204" alt=""/>
+                    <p>全国声援五卅运动</p>
+              </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="footer">
+        <p>五卅运动 | 铭记历史，缅怀先烈，传承红色基因</p>
+       
+    </div>
+</body>
+</html>
